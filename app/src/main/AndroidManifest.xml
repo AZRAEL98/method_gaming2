@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lk.my.sliit.method_gaming">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".Game_Over" />
+        <activity android:name=".help" />
+        <activity android:name=".Score_Activity" />
+        <activity android:name=".Lvls" />
+        <activity android:name=".lvl_one" />
+        <activity android:name=".lvl_two" />
+        <activity android:name=".lvl_three" />
+        <activity android:name=".lvl_four"></activity>
+    </application>
+
+</manifest>
